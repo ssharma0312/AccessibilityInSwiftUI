@@ -16,17 +16,17 @@ struct SortPriority: View {
                 Color.blue
                     .frame(width: 200, height: 200)
                     .accessibility(label: Text("Blue Square"))
-                    .accessibility(sortPriority: 1) // Sort order 1
+                    .accessibility(sortPriority: 1) // Sort order 1 - Reads Third
                 
                 Color.red
                     .frame(width: 150, height: 150)
                     .accessibility(label: Text("Red Square"))
-                    .accessibility(sortPriority: 2) // Sort order 2
+                    .accessibility(sortPriority: 2) // Sort order 2 - Reads Second
                 
                 Color.green
                     .frame(width: 100, height: 100)
                     .accessibility(label: Text("Green Square"))
-                    .accessibility(sortPriority: 3) // Sort order 3
+                    .accessibility(sortPriority: 3) // Sort order 3 - Reads First
             }
             
             Spacer()
